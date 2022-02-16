@@ -1,0 +1,45 @@
+$def with ()
+
+<p>
+Obtain four six-sided dice.
+</p>
+
+
+<p>
+Do this six times:
+<ol>
+  <li>
+    Roll all four dice. Remove the lowest die, ignoring ties.
+  </li>
+  <li>
+    Sum the remaining three dice, and enter the sum into one of the inputs below.
+  </li>
+</ol>
+</p>
+
+<p>
+</p>
+
+<h1>Start</h1>
+<p>What Numbers Did You Roll?</p>
+<form action="start" method="post">
+  <p>
+  <input type=number min=3 max=18 name=score-1>
+  </p>
+  <p>
+  <input type=number min=3 max=18 name=score-2>
+  </p>
+  <p>
+  <input type=number min=3 max=18 name=score-3>
+  </p>
+  <p>
+  <input type=number min=3 max=18 name=score-4>
+  </p>
+  <p>
+  <input type=number min=3 max=18 name=score-5>
+  </p>
+  <p>
+  <input type=number min=3 max=18 name=score-6>
+  </p>
+  <button type=submit>Submit</button>
+</form>

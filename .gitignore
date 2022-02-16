@@ -1,0 +1,6 @@
+*__pycache__
+rejected
+*.db
+*.pdf
+poetry.lock
+todo.txt
